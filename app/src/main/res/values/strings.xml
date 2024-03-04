@@ -1,0 +1,85 @@
+<resources>
+    <string name="app_name">Hololive English</string>
+    <string name="name">Alfiansyah Yulianto</string>
+    <string name="email">a009d4ky3921@bangkit.academy</string>
+
+    <string name="tittle">Hololive English</string>
+    <string name="vtuber_name">Nama Vtuber</string>
+    <string name="description">Description</string>
+    <string name="about">About Me</string>
+
+    <string name="unit">Unit</string>
+    <string-array name="data_unit">
+        <item>hololive English -Myth-</item>
+        <item>hololive English -Myth-</item>
+        <item>hololive English -Myth-</item>
+        <item>hololive English -Myth-</item>
+        <item>hololive English -Myth-</item>
+        <item>hololive English -Promise-</item>
+        <item>hololive English -Promise-</item>
+        <item>hololive English -Promise-</item>
+        <item>hololive English -Promise-</item>
+        <item>hololive English -Promise-</item>
+        <item>hololive English -Advent-</item>
+        <item>hololive English -Advent-</item>
+        <item>hololive English -Advent-</item>
+        <item>hololive English -Advent-</item>
+        <item>hololive English -Advent-</item>
+    </string-array>
+
+    <string-array name="data_photo">
+        <item>@drawable/mori_calliope</item>
+        <item>@drawable/takanashi_kiara</item>
+        <item>@drawable/ninomae_inanis</item>
+        <item>@drawable/gawr_gura</item>
+        <item>@drawable/watson_amelia</item>
+        <item>@drawable/irys</item>
+        <item>@drawable/ceres_fauna</item>
+        <item>@drawable/ouro_kronii</item>
+        <item>@drawable/nanashi_mumei</item>
+        <item>@drawable/hakos_baelz</item>
+        <item>@drawable/shiori_novella</item>
+        <item>@drawable/koseki_bijou</item>
+        <item>@drawable/nerissa_ravencroft</item>
+        <item>@drawable/fuwawa_abyssgard</item>
+        <item>@drawable/mococo_abyssgard</item>
+    </string-array>
+
+    <string-array name="data_name">
+        <item>Mori Calliope</item>
+        <item>Takanashi Kiara</item>
+        <item>Ninomae Inanis</item>
+        <item>Gawr Gura</item>
+        <item>Watson Amelia</item>
+        <item>Irys</item>
+        <item>Ceres Fauna</item>
+        <item>Ouro Kronii</item>
+        <item>Nanashi Mumei</item>
+        <item>Hakos Baeelz</item>
+        <item>Shiori Novella</item>
+        <item>Koseki Bijou</item>
+        <item>Nerissa Ravencroft</item>
+        <item>Fuwawa Abyssgard</item>
+        <item>Mococo Abyssgard</item>
+    </string-array>
+
+    <string-array name="data_description">
+        <item>The Grim Reapers first apprentice. Due to modern medical care causing a decline in the reaping business, Calliope decided to become a VTuber to harvest souls instead.</item>
+        <item>An idol whose dream is to become the owner of a fast food chain. Kiara is a phoenix, not a chicken or turkey.</item>
+        <item>Despite her looks, Inanis is actually a priestess of the Ancient Ones. One day, she picked up a strange book and then started to gain the power of controlling tentacles.</item>
+        <item>Gura bought her clothes and her shark hat in the human world and she really loves them. In her spare time, she enjoys talking to marine life.</item>
+        <item>Amelia heard strange rumors online surrounding hololive talking foxes, magical squirrels, superhuman dogs, and more. Soon after beginning her investigation on hololive.</item>
+        <item>A Nephilim who was once the embodiment of hope back in The Paradise. While she has left to set off on an adventure.</item>
+        <item>The Keeper of Nature, a druidic kirin who appeared on the internet to win over humans and convince them to return to nature.</item>
+        <item>Time is an unwavering, precise entity, and its Warden its overseer is equally cool and impeccable.</item>
+        <item>The Guardian of Civilization, a traveling owl who has borne witness to numerous events.</item>
+        <item>She is a performer looking for her next stage. Occassionally she will get swept up in her own storm, but thats just part of the fun.</item>
+        <item>She turns her favorite stories and treasured memories into bookmarks and saves them.</item>
+        <item>Formed from the crystallization of all forms of human emotion, Koseki Bijou is The Jewel of Emotions.</item>
+        <item>Her powerful love turned into a dark power that inhabited her singing, giving her music the potential to drive the entire world mad.</item>
+        <item>Her duty is to calmly look after her younger twin sister Mococo and their pet Pero, but that calmness can be short lived.</item>
+        <item>Mococo, the lively twin, spent her time in prison indulging in anime and games, frequently involving her older sister Fuwawa and their pet Pero in mischievous activities.</item>
+    </string-array>
+
+
+</resources>
