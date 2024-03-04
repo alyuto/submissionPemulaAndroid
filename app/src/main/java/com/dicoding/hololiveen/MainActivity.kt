@@ -78,8 +78,8 @@ class MainActivity : AppCompatActivity() {
     private fun showSelectedHero(holoen: Holoen) {
 //        Toast.makeText(this, "Kamu memilih " + holoen.name, Toast.LENGTH_SHORT).show()
 
-//        val intentToDetail = Intent(this@MainActivity, ContentMember::class.java)
-//        intentToDetail.putExtra(EXTRA_CONTENT, ContentMember)
-//        startActivity(intentToDetail)
+        val intentToDetail = Intent(this@MainActivity, ContentMember::class.java)
+        intentToDetail.putExtra(EXTRA_CONTENT, ContentMember)
+        startActivity(intentToDetail)
     }
 }
