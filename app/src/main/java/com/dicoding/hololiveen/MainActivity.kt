@@ -52,9 +52,10 @@ class MainActivity : AppCompatActivity() {
         val dataDescription = resources.getStringArray(R.array.data_description)
         val dataPhoto = resources.obtainTypedArray(R.array.data_photo)
         val dataUnit = resources.getStringArray(R.array.data_unit)
+        val dataFullPhoto = resources.obtainTypedArray(R.array.full_body_photo)
         val listHoloen = ArrayList<Holoen>()
         for (i in dataName.indices) {
-            val holoen = Holoen(dataName[i], dataDescription[i], dataPhoto.getResourceId(i, -1), dataUnit[i])
+            val holoen = Holoen(dataName[i], dataDescription[i], dataPhoto.getResourceId(i, -1), dataUnit[i], dataFullPhoto.getResourceId(i, -1))
             listHoloen.add(holoen)
         }
         return listHoloen
@@ -79,7 +80,7 @@ class MainActivity : AppCompatActivity() {
 //        Toast.makeText(this, "Kamu memilih " + holoen.name, Toast.LENGTH_SHORT).show()
 
         val intentToDetail = Intent(this@MainActivity, ContentMember::class.java)
-        intentToDetail.putExtra(EXTRA_CONTENT, ContentMember)
+        intentToDetail.putExtra(EXTRA_CONTENT, holoen)
         startActivity(intentToDetail)
     }
 }

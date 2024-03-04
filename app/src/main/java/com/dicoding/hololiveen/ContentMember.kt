@@ -27,8 +27,9 @@ class ContentMember : AppCompatActivity() {
 
         if (holoen != null) {
             binding.vtuberName.text = holoen.name
-            binding.fullImg.setImageResource(holoen.photo)
+            binding.fullImg.setImageResource(holoen.fullPhoto)
             binding.descriptionContent.text = holoen.description
+            binding.unitVtuber.text = holoen.unit
 
         }
     }

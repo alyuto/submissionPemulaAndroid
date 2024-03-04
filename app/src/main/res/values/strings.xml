@@ -27,6 +27,24 @@
         <item>hololive English -Advent-</item>
     </string-array>
 
+    <string-array name="full_body_photo">
+        <item>@drawable/full_mori</item>
+        <item>@drawable/full_kiara</item>
+        <item>@drawable/full_ina</item>
+        <item>@drawable/full_gura</item>
+        <item>@drawable/full_ame</item>
+        <item>@drawable/full_irys</item>
+        <item>@drawable/full_fauna</item>
+        <item>@drawable/full_kronii</item>
+        <item>@drawable/full_mumei</item>
+        <item>@drawable/full_baez</item>
+        <item>@drawable/full_shiori</item>
+        <item>@drawable/full_bijou</item>
+        <item>@drawable/full_risa</item>
+        <item>@drawable/full_fuwawa</item>
+        <item>@drawable/full_mococo</item>
+    </string-array>
+
     <string-array name="data_photo">
         <item>@drawable/mori_calliope</item>
         <item>@drawable/takanashi_kiara</item>

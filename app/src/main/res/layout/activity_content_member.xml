@@ -4,12 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".contentMember">
+    tools:context=".ContentMember">
 
     <LinearLayout
         android:id="@+id/content_member"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@color/aqua"
         android:orientation="vertical">
 
         <ImageView
@@ -34,7 +35,7 @@
             android:textSize="32sp" />
 
         <TextView
-            android:id="@+id/Unit_vtuber"
+            android:id="@+id/unit_vtuber"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="16dp"

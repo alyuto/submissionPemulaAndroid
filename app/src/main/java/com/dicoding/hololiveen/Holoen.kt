@@ -8,5 +8,6 @@ data class Holoen(
     val name: String?,
     val description: String?,
     val photo: Int,
-    val unit: String?
+    val unit: String?,
+    val fullPhoto: Int
 ) : Parcelable
