@@ -1,5 +1,6 @@
 package com.dicoding.hololiveen
 
+import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.dicoding.hololiveen.databinding.ActivityContentMemberBinding
@@ -17,7 +18,12 @@ class ContentMember : AppCompatActivity() {
         binding = ActivityContentMemberBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        val holoen = intent.getParcelableExtra(EXTRA_CONTENT, Holoen::class.java)
+        val holoen = if (Build.VERSION.SDK_INT >= 33) {
+            intent.getParcelableExtra<Holoen>(EXTRA_CONTENT, Holoen::class.java)
+        } else {
+            @Suppress("DEPRECATION")
+            intent.getParcelableExtra<Holoen>(EXTRA_CONTENT)
+        }
 
         if (holoen != null) {
             binding.vtuberName.text = holoen.name
